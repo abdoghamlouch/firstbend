@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — FirstBend</title>
+<meta name="description" content="Contact FirstBend: purchase and restore help, bug reports, and suggestions.">
+<meta name="theme-color" content="#0E1116">
+<link rel="icon" type="image/png" href="assets/icon-512.png">
+<link rel="apple-touch-icon" href="assets/icon-1024.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site">
+  <div class="wrap bar">
+    <a class="brand" href="index.html">
+      <svg width="26" height="30" viewBox="-12 -12 141 165" aria-hidden="true" focusable="false"><path d="M 0 141 L 103.5 141 A 13.5 13.5 0 0 0 117 127.5 L 117 0" fill="none" stroke="#FFB020" stroke-width="18"/></svg>
+      <span>FirstBend</span>
+    </a>
+    <nav class="main" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.firstbend.calculator">Get the app</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section style="border-top:0">
+    <div class="wrap">
+      <h1 style="font-size:clamp(28px,4vw,40px)">Contact FirstBend</h1>
+      <p class="sub">Pro not showing on a new phone? A bug? An angle you need? Write to us — we read everything.</p>
+
+      <form class="contact" id="contact-form" data-mailto="abdo.ghamlouch@yahoo.com" novalidate>
+        <div>
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div>
+          <label for="email">Your email</label>
+          <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required>
+        </div>
+        <div>
+          <label for="topic">What is it about?</label>
+          <select id="topic" name="topic">
+            <option>Pro / purchase or restore</option>
+            <option>Bug report</option>
+            <option>Suggestion</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div>
+          <button class="btn btn-primary" type="submit">Send message</button>
+        </div>
+        <p class="status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+
+      <p class="formnote">How this works: the button opens your email app with the message filled in — this website stores nothing and sends nothing by itself. Prefer to write directly? <a href="mailto:abdo.ghamlouch@yahoo.com">abdo.ghamlouch@yahoo.com</a>.</p>
+
+      <h2 style="margin-top:44px">Quick answers</h2>
+      <ul class="prose" style="color:var(--muted)">
+        <li><strong style="color:var(--ink)">Pro not active on a new phone?</strong> Open the app and tap <em>Restore purchase</em> first — it should come back automatically. If not, email us with the store account you bought it with.</li>
+        <li><strong style="color:var(--ink)">Refund?</strong> Purchases are handled by Google Play — request refunds from your Play Store order history.</li>
+        <li><strong style="color:var(--ink)">A missing angle or bend type?</strong> Tell us what you bend and how you mark it — new bend types go to Pro owners as they ship.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="rule" style="margin-top:0;border-top:0;padding-top:0">
+      <span>No accounts. No ads. No subscriptions.</span>
+      <span>© 2026 FirstBend</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
